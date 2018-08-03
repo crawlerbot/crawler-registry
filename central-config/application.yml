@@ -1,0 +1,20 @@
+# ===================================================================
+# Simlife Sample Spring Cloud Config.
+# ===================================================================
+
+# Property used on app startup to check the config server status
+configserver:
+    name: Simlife Registry config server
+    status: Connected to the Simlife Registry config server!
+
+# Default JWT secret token (to be changed in production!)
+simlife:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
+
+# Enable /management/logfile endpoint for all apps
+logging:
+    path: /tmp
+    file: ${spring.application.name}.log

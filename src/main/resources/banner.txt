@@ -1,0 +1,4 @@
+Simlife Gateway Registry
+
+${AnsiColor.BRIGHT_BLUE}:: Simlife Registry :: Running Spring Boot ${spring-boot.version} ::
+:: http://www.simlife.io ::${AnsiColor.DEFAULT}
